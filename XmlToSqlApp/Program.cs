@@ -1,36 +1,62 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
+
+
 
 namespace XmlToSqlApp
+
 {
     class Program
     {
         static void Main(string[] args)
         {
             // Adjusted path construction
-            string xmlFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\XmlToDb", "sample.xml");
+            string xmlFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\XmlToDb");
 
             // Print the path for debugging
             Console.WriteLine($"Looking for XML file at: {xmlFilePath}");
 
-            if (!File.Exists(xmlFilePath))
+
+
+            if (!Directory.Exists(xmlFilePath))
             {
                 Console.WriteLine("XML file not found!");
-                // Prevent the window from closing
                 Console.WriteLine("Press any key to exit...");
                 Console.ReadKey();
                 return;
             }
 
-            XmlProcessor processor = new XmlProcessor();
-            var items = processor.ReadXml(xmlFilePath);
+            //Saves Data from List into DB
+            try
+            {
+                foreach (string item in Directory.GetFiles(xmlFilePath))
+                {
+                    XmlProcessor processor = new XmlProcessor();
+                    processor.CheckXMLNodeName(item);
+                    var items = processor.ReadXml(item);
 
-            SqlRepository repository = new SqlRepository();
-            repository.SaveData(items);
+                    SqlRepository repository = new SqlRepository();
+                    repository.SaveData(items);
 
-            Console.WriteLine("Data has been saved to the database.");
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+                    Console.WriteLine("Data has been saved to the database.");
+                }
+
+
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.Read();
+            }
+
+
+
         }
+
     }
 }
+
+

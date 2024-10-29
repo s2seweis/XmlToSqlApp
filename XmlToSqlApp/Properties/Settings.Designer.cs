@@ -33,5 +33,27 @@ namespace XmlToSqlApp.Properties {
                 return ((string)(this["XmlToSqlAppConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\XmlToSqlApp1." +
+            "mdf;Integrated Security=True;Connect Timeout=30")]
+        public string XmlToSqlApp1ConnectionString {
+            get {
+                return ((string)(this["XmlToSqlApp1ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=NB242F34R44\\SQLEXPRESS;Initial Catalog=XmlToSqlApp1;User ID=sa;Passwo" +
+            "rd=alk123;TrustServerCertificate=True")]
+        public string XmlToSqlApp1ConnectionString1 {
+            get {
+                return ((string)(this["XmlToSqlApp1ConnectionString1"]));
+            }
+        }
     }
 }

@@ -1,0 +1,119 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="crstarget" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="hlp_id" type="xsd:int"></xsd:element>
+								<xsd:element name="hlp_title">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"></xsd:maxLength>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="hlp_text">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"></xsd:maxLength>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="hlp_verweisid" type="xsd:int"></xsd:element>
+								<xsd:element name="hlp_forceupd" type="xsd:int"></xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"></xsd:anyAttribute>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<crstarget>
+		<hlp_id>10003</hlp_id>
+		<hlp_title>Beenden - Kopieren</hlp_title>
+		<hlp_text>Kopieren</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10004</hlp_id>
+		<hlp_title>Beenden - \&lt;Löschen</hlp_title>
+		<hlp_text>Löschen (F12)</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10011</hlp_id>
+		<hlp_title>Beenden</hlp_title>
+		<hlp_text>Beenden (F2)</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10017</hlp_id>
+		<hlp_title>Beenden - Zeile neu</hlp_title>
+		<hlp_text>Hinzufügen neue Zeile</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10018</hlp_id>
+		<hlp_title>Beenden - Löschen Zeile</hlp_title>
+		<hlp_text>Löschen aktuelle Zeile</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10020</hlp_id>
+		<hlp_title>Beenden</hlp_title>
+		<hlp_text>Save (F3)</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10021</hlp_id>
+		<hlp_title>Beenden - MLC</hlp_title>
+		<hlp_text>Einstellungen Formular</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10023</hlp_id>
+		<hlp_title>Beenden - Init</hlp_title>
+		<hlp_text>Init Maskenfelder (F10)</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10028</hlp_id>
+		<hlp_title>Beenden</hlp_title>
+		<hlp_text>Struktur öffnen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10029</hlp_id>
+		<hlp_title>Beenden - Daten lesen</hlp_title>
+		<hlp_text>Daten übernehmen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10032</hlp_id>
+		<hlp_title>Beenden - Speichern</hlp_title>
+		<hlp_text>Speichern (F3)</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+	<crstarget>
+		<hlp_id>10040</hlp_id>
+		<hlp_title>Beenden - Export XML</hlp_title>
+		<hlp_text>Export XML</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crstarget>
+</VFPData>

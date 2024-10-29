@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -67,10 +67,10 @@
     </Compile>
     <Compile Include="SqlRepository.cs" />
     <Compile Include="XmlProcessor.cs" />
-    <Compile Include="XmlToSqlAppDataSet.Designer.cs">
+    <Compile Include="XmlToSqlApp1DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>XmlToSqlAppDataSet.xsd</DependentUpon>
+      <DependentUpon>XmlToSqlApp1DataSet.xsd</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -79,27 +79,17 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="XmlToSqlAppDataSet.xsc">
-      <DependentUpon>XmlToSqlAppDataSet.xsd</DependentUpon>
+    <None Include="XmlToSqlApp1DataSet.xsc">
+      <DependentUpon>XmlToSqlApp1DataSet.xsd</DependentUpon>
     </None>
-    <None Include="XmlToSqlAppDataSet.xsd">
+    <None Include="XmlToSqlApp1DataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>XmlToSqlAppDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>XmlToSqlApp1DataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="XmlToSqlAppDataSet.xss">
-      <DependentUpon>XmlToSqlAppDataSet.xsd</DependentUpon>
+    <None Include="XmlToSqlApp1DataSet.xss">
+      <DependentUpon>XmlToSqlApp1DataSet.xsd</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="XmlToDb\sample.xml" />
-    <Content Include="XmlToSqlApp.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="XmlToSqlApp_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>XmlToSqlApp.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -114,5 +104,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="XmlToDb\1.XML" />
+    <Content Include="XmlToDb\3.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

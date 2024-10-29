@@ -1,0 +1,6026 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="crs_mlcrt_gethelp" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="hlp_id" type="xsd:int"></xsd:element>
+								<xsd:element name="hlp_title">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"></xsd:maxLength>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="hlp_text">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"></xsd:maxLength>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="hlp_verweisid" type="xsd:int"></xsd:element>
+								<xsd:element name="hlp_forceupd" type="xsd:int"></xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"></xsd:anyAttribute>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<crs_mlcrt_gethelp>
+		<hlp_id>2</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Betrieb</hlp_title>
+		<hlp_text>
+			( 2 )
+			Betrieb
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - LKW</hlp_title>
+		<hlp_text>
+			( 3 )
+			LKW
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>4</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Standort</hlp_title>
+		<hlp_text>
+			( 4 )
+			Standort
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>5</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - W</hlp_title>
+		<hlp_text>
+			( 5 )
+			Leerkilometer Anhänger / WB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>6</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>
+			( 6 )
+			Leerkilometer Auftrag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>7</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ladedat.</hlp_title>
+		<hlp_text>
+			( 7 )
+			Ladedat.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>8</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kalender</hlp_title>
+		<hlp_text>
+			( 8 )
+			Kalenderbasierende Datumsauswahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>9</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kalender</hlp_title>
+		<hlp_text>
+			( 9 )
+			Kalenderbasierende Datumsauswahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>11</hlp_id>
+		<hlp_title>1</hlp_title>
+		<hlp_text>1</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>12</hlp_id>
+		<hlp_title>2</hlp_title>
+		<hlp_text>2</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>14</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - S</hlp_title>
+		<hlp_text>
+			( 14 )
+			Sendungsstatus - alle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>15</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>
+			( 15 )
+			Anzeige Sendungsstatus - Abholhindernis Fahrzeugkommunikation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>16</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - S</hlp_title>
+		<hlp_text>
+			( 16 )
+			Anzeige Sendungsstatus Fahrzeugkommunikation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>17</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Relation</hlp_title>
+		<hlp_text>
+			( 17 )
+			Relation in Auftragsdaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>18</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - B</hlp_title>
+		<hlp_text>
+			( 18 )
+			Beladerelation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>19</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>
+			( 19 )
+			Entladerelation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>20</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Vorholung</hlp_title>
+		<hlp_text>
+			( 20 )
+			Vorholung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>21</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Zustellung</hlp_title>
+		<hlp_text>
+			( 21 )
+			Zustellung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>22</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ansicht</hlp_title>
+		<hlp_text>
+			( 22 )
+			Ansicht
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>23</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - D-Rel.</hlp_title>
+		<hlp_text>
+			( 23 )
+			Relation Disposition
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>24</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - B</hlp_title>
+		<hlp_text>
+			( 24 )
+			Disposition Relation Beladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>25</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>
+			( 25 )
+			Disposition Relation Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>26</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Markierung</hlp_title>
+		<hlp_text>
+			( 26 )
+			Markierung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>100</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - F</hlp_title>
+		<hlp_text>
+			( 100 )
+			Fahrzeugdaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>101</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - U</hlp_title>
+		<hlp_text>
+			( 101 )
+			Unternehmer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>102</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - S</hlp_title>
+		<hlp_text>
+			( 102 )
+			Standort
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>103</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - T</hlp_title>
+		<hlp_text>
+			( 103 )
+			Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>104</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - L</hlp_title>
+		<hlp_text>
+			( 104 )
+			Ladedaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>105</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>
+			( 105 )
+			Entladedaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>106</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - T</hlp_title>
+		<hlp_text>
+			( 106 )
+			Tourdaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>107</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>
+			( 107 )
+			Auftragsdaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>108</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - ±</hlp_title>
+		<hlp_text>
+			( 108 )
+			LKW-Anzeige expandieren / zusammenziehen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>109</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - &lt;&gt;</hlp_title>
+		<hlp_text>
+			( 109 )
+			LKW-Anzeige vergrößern / verkleinern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>120</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - G</hlp_title>
+		<hlp_text>
+			( 120 )
+			eigene/fremde Gefäße
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>121</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>Art</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>122</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - T</hlp_title>
+		<hlp_text>alle</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>123</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - T</hlp_title>
+		<hlp_text>
+			( 123 )
+			freie Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>124</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - B</hlp_title>
+		<hlp_text>
+			( 124 )
+			Bordero
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>125</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>Erfasser</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>126</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - T</hlp_title>
+		<hlp_text>
+			( 126 )
+			Tourdaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>127</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>
+			( 127 )
+			Auftragsdaten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>128</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - &lt;&gt;</hlp_title>
+		<hlp_text>
+			( 128 )
+			LKW-Anzeige vergrößern / verkleinern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>140</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>Entladedatum</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>141</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>Auftragsart</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>142</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>Erfasser</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>143</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - K</hlp_title>
+		<hlp_text>Auftraggeber</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>144</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - R</hlp_title>
+		<hlp_text>Referenz</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>145</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - P</hlp_title>
+		<hlp_text>PLZ</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>146</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - R</hlp_title>
+		<hlp_text>Relation Beladestelle / Entladestelle</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>147</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Z</hlp_title>
+		<hlp_text>Zonennummer</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>148</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - G</hlp_title>
+		<hlp_text>Gewicht</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>149</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - L</hlp_title>
+		<hlp_text>Lademeter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>150</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - R</hlp_title>
+		<hlp_text>Raummeter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>151</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - P</hlp_title>
+		<hlp_text>Projekt</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>152</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - S</hlp_title>
+		<hlp_text>
+			( 152 )
+			sonstiges
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>153</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - &lt;&gt;</hlp_title>
+		<hlp_text>
+			( 153 )
+			LKW-Anzeige vergrößern / verkleinern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>160</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Aufträge</hlp_title>
+		<hlp_text>
+			( 160 )
+			Aufträge
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>161</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - NEU</hlp_title>
+		<hlp_text>
+			( 161 )
+			NEU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>162</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - markierte</hlp_title>
+		<hlp_text>
+			( 162 )
+			markierte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>163</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - markierte</hlp_title>
+		<hlp_text>
+			( 163 )
+			markierte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>164</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk -</hlp_title>
+		<hlp_text>Karte Vorschau</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>170</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - O</hlp_title>
+		<hlp_text>
+			( 170 )
+			offene Aufträge
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>171</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E</hlp_title>
+		<hlp_text>
+			( 171 )
+			erledigte Aufträge
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>172</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - &lt;&gt;</hlp_title>
+		<hlp_text>
+			( 172 )
+			LKW-Anzeige vergrößern / verkleinern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>173</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - A</hlp_title>
+		<hlp_text>
+			( 173 )
+			Vorholung / Zustellung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>180</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Summen</hlp_title>
+		<hlp_text>
+			( 180 )
+			Summen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>181</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Gruppierung</hlp_title>
+		<hlp_text>
+			( 181 )
+			Gruppierung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>182</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Aufträge gruppieren</hlp_title>
+		<hlp_text>
+			( 182 )
+			Aufträge gruppieren
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>183</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Bordero bilden</hlp_title>
+		<hlp_text>
+			( 183 )
+			Bordero bilden
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>184</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Touren</hlp_title>
+		<hlp_text>
+			( 184 )
+			Borderos/Touren bilden
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>200</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Sendungen</hlp_title>
+		<hlp_text>
+			( 200 )
+			Sendungen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>201</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Beladeorte</hlp_title>
+		<hlp_text>
+			( 201 )
+			Beladeorte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>202</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladeorte</hlp_title>
+		<hlp_text>
+			( 202 )
+			Entladeorte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>203</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - kg</hlp_title>
+		<hlp_text>
+			( 203 )
+			kg
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>204</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - CBM</hlp_title>
+		<hlp_text>
+			( 204 )
+			CBM
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>205</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Lademeter</hlp_title>
+		<hlp_text>
+			( 205 )
+			Lademeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>206</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - FP / Gibo</hlp_title>
+		<hlp_text>
+			( 206 )
+			Summe Packmittel 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>207</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk</hlp_title>
+		<hlp_text>
+			( 207 )
+			Summe Packmittel 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>208</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stellplätze</hlp_title>
+		<hlp_text>
+			( 208 )
+			Stellplätze
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>209</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Warenwert</hlp_title>
+		<hlp_text>
+			( 209 )
+			Warenwert
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>210</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Erlöse</hlp_title>
+		<hlp_text>
+			( 210 )
+			Erlöse
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>211</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kosten</hlp_title>
+		<hlp_text>
+			( 211 )
+			Kosten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>212</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Bruttoertrag</hlp_title>
+		<hlp_text>
+			( 212 )
+			Bruttoertrag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>213</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Gef. Punkte</hlp_title>
+		<hlp_text>
+			( 213 )
+			Gef. Punkte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>215</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Packmittel</hlp_title>
+		<hlp_text>
+			( 215 )
+			Packmittel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>216</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Punkte</hlp_title>
+		<hlp_text>
+			( 216 )
+			Punkte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>217</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - FP</hlp_title>
+		<hlp_text>
+			( 217 )
+			FP
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>218</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Gibo</hlp_title>
+		<hlp_text>
+			( 218 )
+			Gibo
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>270</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Datei</hlp_title>
+		<hlp_text>
+			( 270 )
+			Datei
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>277</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Aufruf</hlp_title>
+		<hlp_text>
+			( 277 )
+			Aufruf
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>278</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Bearbeitung</hlp_title>
+		<hlp_text>
+			( 278 )
+			Bearbeitung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>279</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Dateimenü</hlp_title>
+		<hlp_text>
+			( 279 )
+			Dateimenü
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>280</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Vorgabe</hlp_title>
+		<hlp_text>
+			( 280 )
+			Speichern der Vorgaben für die Anzeige
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>281</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Refresh</hlp_title>
+		<hlp_text>
+			( 281 )
+			Anzeige der Ergebnisse aufgrund der Selektion aktualisieren.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>282</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour löschen</hlp_title>
+		<hlp_text>
+			( 282 )
+			Tour löschen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>283</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour- daten</hlp_title>
+		<hlp_text>
+			( 283 )
+			Tourdaten bearbeiten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>284</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rück- meldung</hlp_title>
+		<hlp_text>
+			( 284 )
+			Tourenrückmeldung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>285</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Status</hlp_title>
+		<hlp_text>
+			( 285 )
+			Tourenstatus anzeigen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>286</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Drucken</hlp_title>
+		<hlp_text>
+			( 286 )
+			Drucken
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>287</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Fracht- brief</hlp_title>
+		<hlp_text>
+			( 287 )
+			Frachtbriefe
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>288</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auto TU Auftr.</hlp_title>
+		<hlp_text>
+			( 288 )
+			Frachtbriefe automatisch
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>290</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr.- erf.</hlp_title>
+		<hlp_text>
+			( 290 )
+			Aufruf Auftragserfassung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>291</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Web Aufruf</hlp_title>
+		<hlp_text>
+			( 291 )
+			Aufruf hinterlegte Webseite
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>299</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Beenden</hlp_title>
+		<hlp_text>
+			( 299 )
+			Die Applikation schliessen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>301</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kennz.</hlp_title>
+		<hlp_text>
+			( 301 )
+			Kennz.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>302</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Nr</hlp_title>
+		<hlp_text>
+			( 302 )
+			Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>303</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - l-km</hlp_title>
+		<hlp_text>
+			( 303 )
+			l-km
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>304</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rel</hlp_title>
+		<hlp_text>
+			( 304 )
+			Rel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>305</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Standort Nr</hlp_title>
+		<hlp_text>
+			( 305 )
+			Standort Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>306</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Standort Name</hlp_title>
+		<hlp_text>
+			( 306 )
+			Standort Name
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>307</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Standort</hlp_title>
+		<hlp_text>
+			( 307 )
+			Standort
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>308</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tournr.</hlp_title>
+		<hlp_text>
+			( 308 )
+			Tournr.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>309</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Beladetag</hlp_title>
+		<hlp_text>
+			( 309 )
+			Beladetag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>310</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Beladezeit</hlp_title>
+		<hlp_text>
+			( 310 )
+			Beladezeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>311</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Beladetermin</hlp_title>
+		<hlp_text>
+			( 311 )
+			Beladetermin
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>312</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Code</hlp_title>
+		<hlp_text>
+			( 312 )
+			Code
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>313</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Reisenummer</hlp_title>
+		<hlp_text>
+			( 313 )
+			Reisenummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>314</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - kg</hlp_title>
+		<hlp_text>
+			( 314 )
+			kg
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>315</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Lademeter</hlp_title>
+		<hlp_text>
+			( 315 )
+			Lademeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>316</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Raummeter</hlp_title>
+		<hlp_text>
+			( 316 )
+			Raummeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>317</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anz. Aufträge</hlp_title>
+		<hlp_text>
+			( 317 )
+			Anz. Aufträge
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>318</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladedatum</hlp_title>
+		<hlp_text>
+			( 318 )
+			Entladedatum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>319</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladezeit</hlp_title>
+		<hlp_text>
+			( 319 )
+			Entladezeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>320</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladetermin</hlp_title>
+		<hlp_text>
+			( 320 )
+			Entladetermin
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>321</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stellplätze</hlp_title>
+		<hlp_text>
+			( 321 )
+			Stellplätze
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>322</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Erlöse</hlp_title>
+		<hlp_text>
+			( 322 )
+			Erlöse
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>323</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kosten</hlp_title>
+		<hlp_text>
+			( 323 )
+			Kosten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>324</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Zusatz1</hlp_title>
+		<hlp_text>
+			( 324 )
+			Zusatz1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>325</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Zusatz2</hlp_title>
+		<hlp_text>
+			( 325 )
+			Zusatz2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>326</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour Status Nr.</hlp_title>
+		<hlp_text>
+			( 326 )
+			Tour Status Nr.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>327</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour Status</hlp_title>
+		<hlp_text>
+			( 327 )
+			Tour Status
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>328</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour Status Text</hlp_title>
+		<hlp_text>
+			( 328 )
+			Tour Status Text
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>329</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour Status Datum</hlp_title>
+		<hlp_text>
+			( 329 )
+			Tour Status Datum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>330</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tour Status Zeit</hlp_title>
+		<hlp_text>
+			( 330 )
+			Tour Status Zeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>331</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - TEU</hlp_title>
+		<hlp_text>
+			( 331 )
+			TEU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>332</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Zone</hlp_title>
+		<hlp_text>
+			( 332 )
+			Zone
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>333</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Art</hlp_title>
+		<hlp_text>
+			( 333 )
+			Art
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>334</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Standort Str.</hlp_title>
+		<hlp_text>
+			( 334 )
+			Standort Str.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>335</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - DS</hlp_title>
+		<hlp_text>
+			( 335 )
+			DS
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>336</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anh</hlp_title>
+		<hlp_text>
+			( 336 )
+			Anh
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>337</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anh Nr</hlp_title>
+		<hlp_text>
+			( 337 )
+			Anh Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>338</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB1</hlp_title>
+		<hlp_text>
+			( 338 )
+			WB1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>339</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB1 Nr</hlp_title>
+		<hlp_text>
+			( 339 )
+			WB1 Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>340</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB2</hlp_title>
+		<hlp_text>
+			( 340 )
+			WB2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>341</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB2 Nr</hlp_title>
+		<hlp_text>
+			( 341 )
+			WB2 Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>342</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anh2</hlp_title>
+		<hlp_text>
+			( 342 )
+			Anh2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>343</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anh2 Nr</hlp_title>
+		<hlp_text>
+			( 343 )
+			Anh2 Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>344</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB3</hlp_title>
+		<hlp_text>
+			( 344 )
+			WB3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>345</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB3 Nr</hlp_title>
+		<hlp_text>
+			( 345 )
+			WB3 Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>346</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - HS</hlp_title>
+		<hlp_text>
+			( 346 )
+			HS
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>347</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Ladestelle</hlp_title>
+		<hlp_text>
+			( 347 )
+			PLZ Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>348</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Ladestelle</hlp_title>
+		<hlp_text>
+			( 348 )
+			Ort Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>349</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rel Ladestelle</hlp_title>
+		<hlp_text>
+			( 349 )
+			Rel Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>351</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Spediteur</hlp_title>
+		<hlp_text>
+			( 351 )
+			Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>352</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Spediteur</hlp_title>
+		<hlp_text>
+			( 352 )
+			Adrsnr. Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>353</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - l-km</hlp_title>
+		<hlp_text>
+			( 353 )
+			l-km
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>354</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rel.</hlp_title>
+		<hlp_text>
+			( 354 )
+			Rel.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>355</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Borderonr.</hlp_title>
+		<hlp_text>
+			( 355 )
+			Borderonr.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>356</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort</hlp_title>
+		<hlp_text>
+			( 356 )
+			Ort
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>357</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anz. Aufträge</hlp_title>
+		<hlp_text>
+			( 357 )
+			Anz. Aufträge
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>358</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - kg</hlp_title>
+		<hlp_text>
+			( 358 )
+			kg
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>359</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Lademeter</hlp_title>
+		<hlp_text>
+			( 359 )
+			Lademeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>360</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Raummeter</hlp_title>
+		<hlp_text>
+			( 360 )
+			Raummeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>361</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - TEU</hlp_title>
+		<hlp_text>
+			( 361 )
+			TEU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>362</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - HS</hlp_title>
+		<hlp_text>
+			( 362 )
+			HS
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>363</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - DFÜ</hlp_title>
+		<hlp_text>
+			( 363 )
+			DFÜ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>364</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stellpl.</hlp_title>
+		<hlp_text>
+			( 364 )
+			Stellpl.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>365</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - DFÜ Symbol</hlp_title>
+		<hlp_text>
+			( 365 )
+			DFÜ Symbol
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>401</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Gruppe</hlp_title>
+		<hlp_text>
+			( 401 )
+			Gruppe
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>402</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anzahl</hlp_title>
+		<hlp_text>
+			( 402 )
+			Anzahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>403</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - kg</hlp_title>
+		<hlp_text>
+			( 403 )
+			kg
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>404</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - CBM</hlp_title>
+		<hlp_text>
+			( 404 )
+			CBM
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>405</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Lademeter</hlp_title>
+		<hlp_text>
+			( 405 )
+			Lademeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>406</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Warenwert</hlp_title>
+		<hlp_text>
+			( 406 )
+			Warenwert
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>407</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Euro-Palette</hlp_title>
+		<hlp_text>
+			( 407 )
+			Euro-Palette
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>408</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Gitterbox</hlp_title>
+		<hlp_text>
+			( 408 )
+			Gitterbox
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>409</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stellplatz</hlp_title>
+		<hlp_text>
+			( 409 )
+			Stellplatz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>410</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. E-Spediteur</hlp_title>
+		<hlp_text>
+			( 410 )
+			Adrsnr. E-Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>411</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E-Spediteur</hlp_title>
+		<hlp_text>
+			( 411 )
+			E-Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>412</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. E-Spediteur</hlp_title>
+		<hlp_text>
+			( 412 )
+			Str. E-Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>413</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ E-Spediteur</hlp_title>
+		<hlp_text>
+			( 413 )
+			PLZ E-Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>414</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort E-Spediteur</hlp_title>
+		<hlp_text>
+			( 414 )
+			Ort E-Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>415</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - HB</hlp_title>
+		<hlp_text>
+			( 415 )
+			HB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>416</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - HÖ</hlp_title>
+		<hlp_text>
+			( 416 )
+			HÖ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>417</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Datum</hlp_title>
+		<hlp_text>
+			( 417 )
+			Datum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>418</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - kg Grenze</hlp_title>
+		<hlp_text>
+			( 418 )
+			kg Grenze
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>419</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - LZ</hlp_title>
+		<hlp_text>
+			( 419 )
+			LZ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>420</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - LKW</hlp_title>
+		<hlp_text>
+			( 420 )
+			LKW
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>421</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Unternehmer</hlp_title>
+		<hlp_text>
+			( 421 )
+			Adrsnr. Unternehmer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>422</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Unternehmer</hlp_title>
+		<hlp_text>
+			( 422 )
+			Unternehmer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>423</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. Unternehmer</hlp_title>
+		<hlp_text>
+			( 423 )
+			Str. Unternehmer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>424</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Unternehmer</hlp_title>
+		<hlp_text>
+			( 424 )
+			PLZ Unternehmer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>425</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Unternehmer</hlp_title>
+		<hlp_text>
+			( 425 )
+			Ort Unternehmer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>426</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rel.Bez.</hlp_title>
+		<hlp_text>
+			( 426 )
+			Rel.Bez.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>427</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anz.Splitauf.</hlp_title>
+		<hlp_text>
+			( 427 )
+			Anz.Splitauf.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>428</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rel.Zusatzbez.</hlp_title>
+		<hlp_text>
+			( 428 )
+			Rel.Zusatzbez.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>429</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Schnittgew.</hlp_title>
+		<hlp_text>
+			( 429 )
+			Schnittgew.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>430</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anz.Schnitt</hlp_title>
+		<hlp_text>
+			( 430 )
+			Anz.Schnitt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>501</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Nr</hlp_title>
+		<hlp_text>
+			( 501 )
+			Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>502</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - l-km</hlp_title>
+		<hlp_text>
+			( 502 )
+			l-km
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>503</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - LR</hlp_title>
+		<hlp_text>
+			( 503 )
+			Lade-Relation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>504</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - ZR</hlp_title>
+		<hlp_text>
+			( 504 )
+			Zustell-Relation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>505</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Versender</hlp_title>
+		<hlp_text>
+			( 505 )
+			Versender
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>506</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Ladestelle</hlp_title>
+		<hlp_text>
+			( 506 )
+			Ort Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>507</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ladetermin</hlp_title>
+		<hlp_text>
+			( 507 )
+			Ladetermin
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>508</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Empfänger</hlp_title>
+		<hlp_text>
+			( 508 )
+			Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>509</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Entladestelle</hlp_title>
+		<hlp_text>
+			( 509 )
+			Ort Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>510</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladetermin</hlp_title>
+		<hlp_text>
+			( 510 )
+			Entladetermin
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>511</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anzahl</hlp_title>
+		<hlp_text>
+			( 511 )
+			Anzahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>512</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Verp.</hlp_title>
+		<hlp_text>
+			( 512 )
+			Verp.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>513</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Inhalt</hlp_title>
+		<hlp_text>
+			( 513 )
+			Inhalt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>514</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kg</hlp_title>
+		<hlp_text>
+			( 514 )
+			Kg
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>515</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - CBM</hlp_title>
+		<hlp_text>
+			( 515 )
+			CBM
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>516</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - LM</hlp_title>
+		<hlp_text>
+			( 516 )
+			LM
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>517</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Erlöse</hlp_title>
+		<hlp_text>
+			( 517 )
+			Erlöse
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>518</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Kosten</hlp_title>
+		<hlp_text>
+			( 518 )
+			Kosten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>519</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ladedatum</hlp_title>
+		<hlp_text>
+			( 519 )
+			Ladedatum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>520</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ladezeit</hlp_title>
+		<hlp_text>
+			( 520 )
+			Ladezeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>521</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladedatum</hlp_title>
+		<hlp_text>
+			( 521 )
+			Entladedatum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>522</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladezeit</hlp_title>
+		<hlp_text>
+			( 522 )
+			Entladezeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>523</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftragsnummer</hlp_title>
+		<hlp_text>
+			( 523 )
+			Auftragsnummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>524</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Ladestelle</hlp_title>
+		<hlp_text>
+			( 524 )
+			Adrsnr. Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>525</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Entladestelle</hlp_title>
+		<hlp_text>
+			( 525 )
+			Adrsnr. Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>526</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Gef.-Klasse</hlp_title>
+		<hlp_text>
+			( 526 )
+			Gef.-Klasse
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>527</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Dispo-Hinweis</hlp_title>
+		<hlp_text>
+			( 527 )
+			Dispo-Hinweis
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>528</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Versender</hlp_title>
+		<hlp_text>
+			( 528 )
+			Adrsnr. Versender
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>529</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Empfänger</hlp_title>
+		<hlp_text>
+			( 529 )
+			Adrsnr. Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>530</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ladestelle</hlp_title>
+		<hlp_text>
+			( 530 )
+			Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>531</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. Ladestelle</hlp_title>
+		<hlp_text>
+			( 531 )
+			Str. Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>532</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Ladestelle</hlp_title>
+		<hlp_text>
+			( 532 )
+			PLZ Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>533</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladestelle</hlp_title>
+		<hlp_text>
+			( 533 )
+			Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>534</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. Entladestelle</hlp_title>
+		<hlp_text>
+			( 534 )
+			Str. Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>535</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Entladestelle</hlp_title>
+		<hlp_text>
+			( 535 )
+			PLZ Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>536</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Art</hlp_title>
+		<hlp_text>
+			( 536 )
+			Art
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>537</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Erf-Kürzel</hlp_title>
+		<hlp_text>
+			( 537 )
+			Erf-Kürzel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>538</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Referenz</hlp_title>
+		<hlp_text>
+			( 538 )
+			Referenz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>544</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Fr Nr</hlp_title>
+		<hlp_text>
+			( 544 )
+			Fr Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>545</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Frankatur</hlp_title>
+		<hlp_text>
+			( 545 )
+			Frankatur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>546</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Hinweis Code 7</hlp_title>
+		<hlp_text>
+			( 546 )
+			Hinweis Code 7
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>547</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Hinweis Code 3</hlp_title>
+		<hlp_text>
+			( 547 )
+			Hinweis Code 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>548</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Hinweis Code 155</hlp_title>
+		<hlp_text>
+			( 548 )
+			Hinweis Code 155
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>549</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Status</hlp_title>
+		<hlp_text>
+			( 549 )
+			Status
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>550</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Sdgz</hlp_title>
+		<hlp_text>
+			( 550 )
+			Sdgz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>551</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - B-Zone</hlp_title>
+		<hlp_text>
+			( 551 )
+			B-Zone
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>552</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E-Zone</hlp_title>
+		<hlp_text>
+			( 552 )
+			E-Zone
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>553</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Abteilung</hlp_title>
+		<hlp_text>
+			( 553 )
+			Abteilung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>554</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - von Ladezeit</hlp_title>
+		<hlp_text>
+			( 554 )
+			von Ladezeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>555</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - von Entladezeit</hlp_title>
+		<hlp_text>
+			( 555 )
+			von Entladezeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>556</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - RES</hlp_title>
+		<hlp_text>
+			( 556 )
+			RES
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>557</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statusdatum</hlp_title>
+		<hlp_text>
+			( 557 )
+			Statusdatum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>558</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statuszeit</hlp_title>
+		<hlp_text>
+			( 558 )
+			Statuszeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>559</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statusbereich</hlp_title>
+		<hlp_text>
+			( 559 )
+			Statusbereich
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>560</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Quittungsgeb.</hlp_title>
+		<hlp_text>
+			( 560 )
+			Quittungsgeb.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>561</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - Q</hlp_title>
+		<hlp_text>
+			( 561 )
+			Q
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>562</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Projekt</hlp_title>
+		<hlp_text>
+			( 562 )
+			Projekt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>563</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Touren</hlp_title>
+		<hlp_text>
+			( 563 )
+			Touren
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>564</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Werkshalle</hlp_title>
+		<hlp_text>
+			( 564 )
+			Werkshalle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>565</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Auftraggeber</hlp_title>
+		<hlp_text>
+			( 565 )
+			Adrsnr. Auftraggeber
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>566</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftraggeber</hlp_title>
+		<hlp_text>
+			( 566 )
+			Auftraggeber
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>567</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. Auftraggeber</hlp_title>
+		<hlp_text>
+			( 567 )
+			Str. Auftraggeber
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>568</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Auftraggeber</hlp_title>
+		<hlp_text>
+			( 568 )
+			PLZ Auftraggeber
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>569</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Auftraggeber</hlp_title>
+		<hlp_text>
+			( 569 )
+			Ort Auftraggeber
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>570</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stellpl.</hlp_title>
+		<hlp_text>
+			( 570 )
+			Stellpl.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>571</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - HB</hlp_title>
+		<hlp_text>
+			( 571 )
+			HB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>572</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - HÖ</hlp_title>
+		<hlp_text>
+			( 572 )
+			HÖ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>573</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Match Entladestelle</hlp_title>
+		<hlp_text>
+			( 573 )
+			Match Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>574</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PA</hlp_title>
+		<hlp_text>
+			( 574 )
+			PA
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>575</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. Versender</hlp_title>
+		<hlp_text>
+			( 575 )
+			Str. Versender
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>576</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Versender</hlp_title>
+		<hlp_text>
+			( 576 )
+			PLZ Versender
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>577</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Versender</hlp_title>
+		<hlp_text>
+			( 577 )
+			Ort Versender
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>578</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Str. Empfänger</hlp_title>
+		<hlp_text>
+			( 578 )
+			Str. Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>579</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Empfänger</hlp_title>
+		<hlp_text>
+			( 579 )
+			PLZ Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>580</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Empfänger</hlp_title>
+		<hlp_text>
+			( 580 )
+			Ort Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>581</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftragsart</hlp_title>
+		<hlp_text>
+			( 581 )
+			Auftragsart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>582</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Hinweis Ladestelle</hlp_title>
+		<hlp_text>
+			( 582 )
+			Hinweis Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>583</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Hinweis Entladestelle</hlp_title>
+		<hlp_text>
+			( 583 )
+			Hinweis Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>584</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - V-Tour</hlp_title>
+		<hlp_text>
+			( 584 )
+			V-Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>585</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Z-Tour</hlp_title>
+		<hlp_text>
+			( 585 )
+			Z-Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>586</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AP</hlp_title>
+		<hlp_text>
+			( 586 )
+			AP
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>587</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Signum</hlp_title>
+		<hlp_text>
+			( 587 )
+			Signum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>588</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AB-Rel</hlp_title>
+		<hlp_text>
+			( 588 )
+			AB-Rel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>589</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AE-Rel</hlp_title>
+		<hlp_text>
+			( 589 )
+			AE-Rel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>590</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statustext</hlp_title>
+		<hlp_text>
+			( 590 )
+			Statustext
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>591</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Adrsnr. Ladestelle</hlp_title>
+		<hlp_text>
+			( 591 )
+			Auftr. Adrsnr. Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>592</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Ladestelle</hlp_title>
+		<hlp_text>
+			( 592 )
+			Auftr. Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>593</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Str. Ladestelle</hlp_title>
+		<hlp_text>
+			( 593 )
+			Auftr. Str. Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>594</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. PLZ Ladestelle</hlp_title>
+		<hlp_text>
+			( 594 )
+			Auftr. PLZ Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>595</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Ort Ladestelle</hlp_title>
+		<hlp_text>
+			( 595 )
+			Auftr. Ort Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>596</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Adrsnr. Entladestelle</hlp_title>
+		<hlp_text>
+			( 596 )
+			Auftr. Adrsnr. Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>597</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Entladestelle</hlp_title>
+		<hlp_text>
+			( 597 )
+			Auftr. Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>598</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Str. Entladestelle</hlp_title>
+		<hlp_text>
+			( 598 )
+			Auftr. Str. Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>599</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. PLZ Entladestelle</hlp_title>
+		<hlp_text>
+			( 599 )
+			Auftr. PLZ Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>600</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Auftr. Ort Entladestelle</hlp_title>
+		<hlp_text>
+			( 600 )
+			Auftr. Ort Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>601</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Log-Mod</hlp_title>
+		<hlp_text>
+			( 601 )
+			Logistikmodel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>602</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Nachnahme</hlp_title>
+		<hlp_text>
+			( 602 )
+			Warennachnahme
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>603</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Fortras</hlp_title>
+		<hlp_text>
+			( 603 )
+			Fortras
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>604</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - kg frpfl</hlp_title>
+		<hlp_text>
+			( 604 )
+			kg frpfl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>605</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Freitext 1</hlp_title>
+		<hlp_text>
+			( 605 )
+			Freitext 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>606</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Freitext 2</hlp_title>
+		<hlp_text>
+			( 606 )
+			Freitext 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>607</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Freitext 3</hlp_title>
+		<hlp_text>
+			( 607 )
+			Freitext 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>608</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Freitext 4</hlp_title>
+		<hlp_text>
+			( 608 )
+			Freitext 4
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>609</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Freitext 5</hlp_title>
+		<hlp_text>
+			( 609 )
+			Freitext 5
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>610</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Maße</hlp_title>
+		<hlp_text>
+			( 610 )
+			Maße
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>611</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - NVE</hlp_title>
+		<hlp_text>
+			( 611 )
+			NVE
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>612</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - km</hlp_title>
+		<hlp_text>
+			( 612 )
+			km
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>613</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Inhalt 2</hlp_title>
+		<hlp_text>
+			( 613 )
+			Inhalt 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>614</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Inhalt 3</hlp_title>
+		<hlp_text>
+			( 614 )
+			Inhalt 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>615</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - VK</hlp_title>
+		<hlp_text>
+			( 615 )
+			VK
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>616</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - H</hlp_title>
+		<hlp_text>
+			( 616 )
+			H
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>617</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - V</hlp_title>
+		<hlp_text>
+			( 617 )
+			V
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>618</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Adrsnr. Reeder</hlp_title>
+		<hlp_text>
+			( 618 )
+			Adrsnr. Reeder
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>619</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Reeder</hlp_title>
+		<hlp_text>
+			( 619 )
+			Reeder
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>620</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Reederkürzel</hlp_title>
+		<hlp_text>
+			( 620 )
+			Reederkürzel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>621</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - NVE Maß</hlp_title>
+		<hlp_text>
+			( 621 )
+			NVE Abmessungen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>622</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - E-NVE</hlp_title>
+		<hlp_text>
+			( 622 )
+			E-NVE
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>623</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statusbereich1</hlp_title>
+		<hlp_text>
+			( 623 )
+			Statusbereich1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>624</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stat1</hlp_title>
+		<hlp_text>
+			( 624 )
+			Stat1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>625</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statustext 1</hlp_title>
+		<hlp_text>
+			( 625 )
+			Statustext 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>626</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatDat1</hlp_title>
+		<hlp_text>
+			( 626 )
+			StatDat1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>627</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatZeit1</hlp_title>
+		<hlp_text>
+			( 627 )
+			StatZeit1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>628</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Quittungsgeb. 1</hlp_title>
+		<hlp_text>
+			( 628 )
+			Quittungsgeb. 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>629</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statusbereich 2</hlp_title>
+		<hlp_text>
+			( 629 )
+			Statusbereich 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>630</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stat2</hlp_title>
+		<hlp_text>
+			( 630 )
+			Stat2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>631</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statustext 2</hlp_title>
+		<hlp_text>
+			( 631 )
+			Statustext 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>632</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatDat2</hlp_title>
+		<hlp_text>
+			( 632 )
+			StatDat2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>633</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatZeit2</hlp_title>
+		<hlp_text>
+			( 633 )
+			StatZeit2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>634</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Quittungsgeb. 2</hlp_title>
+		<hlp_text>
+			( 634 )
+			Quittungsgeb. 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>635</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statusbereich 3</hlp_title>
+		<hlp_text>
+			( 635 )
+			Statusbereich 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>636</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Stat3</hlp_title>
+		<hlp_text>
+			( 636 )
+			Stat3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>637</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Statustext 3</hlp_title>
+		<hlp_text>
+			( 637 )
+			Statustext 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>638</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatDat3</hlp_title>
+		<hlp_text>
+			( 638 )
+			StatDat3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>639</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatZeit3</hlp_title>
+		<hlp_text>
+			( 639 )
+			StatZeit3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>640</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Quittungsgeb. 3</hlp_title>
+		<hlp_text>
+			( 640 )
+			Quittungsgeb. 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>641</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - GefPkt</hlp_title>
+		<hlp_text>
+			( 641 )
+			GefPkt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>642</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatErf</hlp_title>
+		<hlp_text>
+			( 642 )
+			StatErf
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>643</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatErf1</hlp_title>
+		<hlp_text>
+			( 643 )
+			StatErf1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>644</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatErf2</hlp_title>
+		<hlp_text>
+			( 644 )
+			StatErf2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>645</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - StatErf3</hlp_title>
+		<hlp_text>
+			( 645 )
+			StatErf3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>646</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AB-Zone</hlp_title>
+		<hlp_text>
+			( 646 )
+			AB-Zone
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>647</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AE-Zone</hlp_title>
+		<hlp_text>
+			( 647 )
+			AE-Zone
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>648</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ant.Tour</hlp_title>
+		<hlp_text>
+			( 648 )
+			Ant.Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>649</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ant.Sonst</hlp_title>
+		<hlp_text>
+			( 649 )
+			Ant.Sonst
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>650</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Urauftrag</hlp_title>
+		<hlp_text>
+			( 650 )
+			Urauftrag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>651</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - km Strecke</hlp_title>
+		<hlp_text>
+			( 651 )
+			km Strecke
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>652</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Status Zusatz</hlp_title>
+		<hlp_text>
+			( 652 )
+			Status Zusatz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>653</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Status Zusatz 1</hlp_title>
+		<hlp_text>
+			( 653 )
+			Status Zusatz 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>654</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Status Zusatz 2</hlp_title>
+		<hlp_text>
+			( 654 )
+			Status Zusatz 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>655</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Status Zusatz 3</hlp_title>
+		<hlp_text>
+			( 655 )
+			Status Zusatz 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>656</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - VRel</hlp_title>
+		<hlp_text>
+			( 656 )
+			VRel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>657</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Art</hlp_title>
+		<hlp_text>
+			( 657 )
+			Art
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>658</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - B-NVE</hlp_title>
+		<hlp_text>
+			( 658 )
+			B-NVE
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>659</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - ZL</hlp_title>
+		<hlp_text>
+			( 659 )
+			ZL
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>660</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Warenwert</hlp_title>
+		<hlp_text>
+			( 660 )
+			Warenwert
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>661</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Abladestelle</hlp_title>
+		<hlp_text>
+			( 661 )
+			Abladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>662</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - SLB-Nummer</hlp_title>
+		<hlp_text>
+			( 662 )
+			SLB-Nummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>663</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Punkte</hlp_title>
+		<hlp_text>
+			( 663 )
+			Punkte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>664</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Z-NVE</hlp_title>
+		<hlp_text>
+			( 664 )
+			Z-NVE
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>665</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - DA</hlp_title>
+		<hlp_text>
+			( 665 )
+			DA
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>666</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - VD</hlp_title>
+		<hlp_text>
+			( 666 )
+			VD
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>667</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - - ZD</hlp_title>
+		<hlp_text>
+			( 667 )
+			ZD
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>668</hlp_id>
+		<hlp_title>Disposition 10.2.32 - JOS - letzte Aktualisierung 01.12.2022 08:08:55 - ToDo</hlp_title>
+		<hlp_text>
+			( 668 )
+			ToDo
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>669</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - CO2</hlp_title>
+		<hlp_text>
+			( 669 )
+			CO2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>670</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AArt</hlp_title>
+		<hlp_text>
+			( 670 )
+			AArt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>671</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - ATyp</hlp_title>
+		<hlp_text>
+			( 671 )
+			ATyp
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>672</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Laden Bahnhof</hlp_title>
+		<hlp_text>
+			( 672 )
+			Laden Bahnhof
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>673</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladen Bahnhof</hlp_title>
+		<hlp_text>
+			( 673 )
+			Entladen Bahnhof
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>674</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - AB Ladedatum</hlp_title>
+		<hlp_text>
+			( 674 )
+			AB Ladedatum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>675</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - FB</hlp_title>
+		<hlp_text>
+			( 675 )
+			FB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>700</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - PLZ Entladestelle</hlp_title>
+		<hlp_text>
+			( 700 )
+			PLZ Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>701</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ort Entladestelle</hlp_title>
+		<hlp_text>
+			( 701 )
+			Ort Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>702</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Rel Entladestelle</hlp_title>
+		<hlp_text>
+			( 702 )
+			Rel Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>703</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anh1 ILU</hlp_title>
+		<hlp_text>
+			( 703 )
+			Anh1 ILU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>704</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Anh2 ILU</hlp_title>
+		<hlp_text>
+			( 704 )
+			Anh2 ILU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>705</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB1 ILU</hlp_title>
+		<hlp_text>
+			( 705 )
+			WB1 ILU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>706</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB2 ILU</hlp_title>
+		<hlp_text>
+			( 706 )
+			WB2 ILU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>707</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - WB3 ILU</hlp_title>
+		<hlp_text>
+			( 707 )
+			WB3 ILU
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>708</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Zusatz3</hlp_title>
+		<hlp_text>
+			( 708 )
+			Zusatz3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>709</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Zusatz4</hlp_title>
+		<hlp_text>
+			( 709 )
+			Zusatz4
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>710</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - DFÜ</hlp_title>
+		<hlp_text>
+			( 710 )
+			DFÜ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>711</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Ladestelle</hlp_title>
+		<hlp_text>
+			( 711 )
+			Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>712</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Entladestelle</hlp_title>
+		<hlp_text>
+			( 712 )
+			Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>713</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - Tourart</hlp_title>
+		<hlp_text>
+			( 713 )
+			Tourart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>714</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - DFÜ Symbol</hlp_title>
+		<hlp_text>
+			( 714 )
+			DFÜ Symbol
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1001</hlp_id>
+		<hlp_title>Tourdaten</hlp_title>
+		<hlp_text>Tourdaten</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1002</hlp_id>
+		<hlp_title>Tourdaten - Beladetag</hlp_title>
+		<hlp_text>
+			( 1002 )
+			+           einen Tag weiter
+			-           einen Tag zurück
+			H|h         Heute
+			A|a         01.01. des angezeigten Jahres
+			E|e         31.12. des angezeigten Jahres
+			M|m         Morgen
+			G|g         Gestern
+			V|v         Vorgestern
+			Ü|ü         Übermor
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1003</hlp_id>
+		<hlp_title>Tourdaten - Kalender</hlp_title>
+		<hlp_text>
+			( 1003 )
+			Kalenderbasierende Datumsauswahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1004</hlp_id>
+		<hlp_title>Tourdaten - Zeit</hlp_title>
+		<hlp_text>
+			( 1004 )
+			Zeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1005</hlp_id>
+		<hlp_title>Tourdaten</hlp_title>
+		<hlp_text>
+			( 1005 )
+			bis
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1006</hlp_id>
+		<hlp_title>Tourdaten - Entladetag</hlp_title>
+		<hlp_text>
+			( 1006 )
+			+           einen Tag weiter
+			-           einen Tag zurück
+			H|h         Heute
+			A|a         01.01. des angezeigten Jahres
+			E|e         31.12. des angezeigten Jahres
+			M|m         Morgen
+			G|g         Gestern
+			V|v         Vorgestern
+			Ü|ü         Übermor
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1007</hlp_id>
+		<hlp_title>Tourdaten - Kalender</hlp_title>
+		<hlp_text>
+			( 1007 )
+			Kalenderbasierende Datumsauswahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1008</hlp_id>
+		<hlp_title>Tourdaten - Zeit</hlp_title>
+		<hlp_text>
+			( 1008 )
+			Zeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1009</hlp_id>
+		<hlp_title>Tourdaten</hlp_title>
+		<hlp_text>
+			( 1009 )
+			bis
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1010</hlp_id>
+		<hlp_title>Tourdaten - Tournummer</hlp_title>
+		<hlp_text>
+			( 1010 )
+			Tournummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1011</hlp_id>
+		<hlp_title>Tourdaten - Tour</hlp_title>
+		<hlp_text>
+			( 1011 )
+			Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1012</hlp_id>
+		<hlp_title>Tourdaten - Rollkarte</hlp_title>
+		<hlp_text>
+			( 1012 )
+			Rollkarte
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1014</hlp_id>
+		<hlp_title>Tourdaten - Erfasser</hlp_title>
+		<hlp_text>
+			( 1014 )
+			Erfasser
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1015</hlp_id>
+		<hlp_title>Tourdaten - Frachtbörse</hlp_title>
+		<hlp_text>
+			( 1015 )
+			Frachtbörse
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1016</hlp_id>
+		<hlp_title>Tourdaten - LKW</hlp_title>
+		<hlp_text>
+			( 1016 )
+			LKW
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1017</hlp_id>
+		<hlp_title>Tourdaten - Anhänger</hlp_title>
+		<hlp_text>
+			( 1017 )
+			Anhänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1018</hlp_id>
+		<hlp_title>Tourdaten - NL</hlp_title>
+		<hlp_text>
+			( 1018 )
+			NL
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1019</hlp_id>
+		<hlp_title>Tourdaten - NL</hlp_title>
+		<hlp_text>
+			( 1019 )
+			NL
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1020</hlp_id>
+		<hlp_title>Tourdaten - WB 1</hlp_title>
+		<hlp_text>
+			( 1020 )
+			WB 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1021</hlp_id>
+		<hlp_title>Tourdaten - WB 2</hlp_title>
+		<hlp_text>
+			( 1021 )
+			WB 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1022</hlp_id>
+		<hlp_title>Tourdaten - Reisenr.</hlp_title>
+		<hlp_text>
+			( 1022 )
+			Reisenr.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1023</hlp_id>
+		<hlp_title>Tourdaten - freie Tour</hlp_title>
+		<hlp_text>
+			( 1023 )
+			freie Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1024</hlp_id>
+		<hlp_title>Tourdaten - Fahrer</hlp_title>
+		<hlp_text>
+			( 1024 )
+			Didinger, Leo
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1025</hlp_id>
+		<hlp_title>Tourdaten - Beifahrer</hlp_title>
+		<hlp_text>
+			( 1025 )
+			Beifahrer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1026</hlp_id>
+		<hlp_title>Tourdaten - Unternehmer</hlp_title>
+		<hlp_text>
+			( 1026 )
+			Leos Testfirma
+			Filsener Str. 10
+			56340 OSTERSPAI
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1027</hlp_id>
+		<hlp_title>Tourdaten - Rangliste</hlp_title>
+		<hlp_text>
+			( 1027 )
+			Rangliste
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1028</hlp_id>
+		<hlp_title>Tourdaten - E-Spediteur</hlp_title>
+		<hlp_text>
+			( 1028 )
+			E-Spediteur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1029</hlp_id>
+		<hlp_title>Tourdaten - HUB-Untern.</hlp_title>
+		<hlp_text>
+			( 1029 )
+			HUB-Untern.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1030</hlp_id>
+		<hlp_title>Tourdaten - Waggonnr. 1</hlp_title>
+		<hlp_text>
+			( 1030 )
+			Waggonnr. 1
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1031</hlp_id>
+		<hlp_title>Tourdaten - Waggonnr. 2</hlp_title>
+		<hlp_text>
+			( 1031 )
+			Waggonnr. 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1032</hlp_id>
+		<hlp_title>Tourdaten - Kostenbetrieb</hlp_title>
+		<hlp_text>
+			( 1032 )
+			Kostenbetrieb
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1033</hlp_id>
+		<hlp_title>Tourdaten - Betr. Vorholung</hlp_title>
+		<hlp_text>
+			( 1033 )
+			Betr. Vorholung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1034</hlp_id>
+		<hlp_title>Tourdaten - Abteilung</hlp_title>
+		<hlp_text>
+			( 1034 )
+			Abteilung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1035</hlp_id>
+		<hlp_title>Tourdaten - Hallenumschlag</hlp_title>
+		<hlp_text>
+			( 1035 )
+			Hallenumschlag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1036</hlp_id>
+		<hlp_title>Tourdaten - Entladestelle</hlp_title>
+		<hlp_text>
+			( 1036 )
+			Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1037</hlp_id>
+		<hlp_title>Abschlusstour</hlp_title>
+		<hlp_text>Abschlusstour</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1038</hlp_id>
+		<hlp_title>Tourdaten - DFÜ-Merker</hlp_title>
+		<hlp_text>
+			( 1038 )
+			DFÜ-Merker
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1039</hlp_id>
+		<hlp_title>Tourdaten - Transportmittel</hlp_title>
+		<hlp_text>
+			( 1039 )
+			Transportmittel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1040</hlp_id>
+		<hlp_title>Tourdaten - Relationsart</hlp_title>
+		<hlp_text>
+			( 1040 )
+			Relationsart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1041</hlp_id>
+		<hlp_title>Tourdaten - Zusatz</hlp_title>
+		<hlp_text>
+			( 1041 )
+			Zusatz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1042</hlp_id>
+		<hlp_title>Tourdaten - Fremdtour</hlp_title>
+		<hlp_text>
+			( 1042 )
+			Fremdtour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1043</hlp_id>
+		<hlp_title>Tourdaten - Anhänger 2</hlp_title>
+		<hlp_text>
+			( 1043 )
+			Anhänger 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1044</hlp_id>
+		<hlp_title>Tourdaten - NL</hlp_title>
+		<hlp_text>
+			( 1044 )
+			NL
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1046</hlp_id>
+		<hlp_title>Tourdaten - Umschlagspunkt</hlp_title>
+		<hlp_text>
+			( 1046 )
+			Umschlagspunkt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1048</hlp_id>
+		<hlp_title>Tourdaten - WB 3</hlp_title>
+		<hlp_text>
+			( 1048 )
+			WB 3
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1049</hlp_id>
+		<hlp_title>Tourdaten - Tourart</hlp_title>
+		<hlp_text>
+			( 1049 )
+			Tourart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1050</hlp_id>
+		<hlp_title>Tourdaten - xServer Profile</hlp_title>
+		<hlp_text>
+			( 1050 )
+			xServer Profile
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1051</hlp_id>
+		<hlp_title>Tourdaten - E-Mail</hlp_title>
+		<hlp_text>
+			( 1051 )
+			E-Mail
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1052</hlp_id>
+		<hlp_title>Tourdaten - Verkehrsart 2</hlp_title>
+		<hlp_text>
+			( 1052 )
+			Verkehrsart 2
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1053</hlp_id>
+		<hlp_title>Tourdaten - Zusatz</hlp_title>
+		<hlp_text>
+			( 1053 )
+			Zusatz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1054</hlp_id>
+		<hlp_title>Tourdaten - Beladestelle</hlp_title>
+		<hlp_text>
+			( 1054 )
+			Beladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1055</hlp_id>
+		<hlp_title>Tourdaten - Dispogrp.</hlp_title>
+		<hlp_text>
+			( 1055 )
+			Dispogruppe
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1056</hlp_id>
+		<hlp_title>Tourdaten - LKW Telefon</hlp_title>
+		<hlp_text>
+			( 1056 )
+			LKW Telefon
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1060</hlp_id>
+		<hlp_title>Tourdaten - Tour-Platz</hlp_title>
+		<hlp_text>
+			( 1060 )
+			Tour-Platz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1061</hlp_id>
+		<hlp_title>Tourdaten - Zugnummer</hlp_title>
+		<hlp_text>
+			( 1061 )
+			Zugnummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1062</hlp_id>
+		<hlp_title>Tourdaten - Tor</hlp_title>
+		<hlp_text>
+			( 1062 )
+			Tor
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1063</hlp_id>
+		<hlp_title>Tourdaten - ETA-Kennz.</hlp_title>
+		<hlp_text>
+			( 1063 )
+			ETA-Kennz.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1064</hlp_id>
+		<hlp_title>Tourdaten - LKW Comid</hlp_title>
+		<hlp_text>
+			( 1064 )
+			LKW Comid
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1090</hlp_id>
+		<hlp_title>Tourdaten - Vorgabe</hlp_title>
+		<hlp_text>
+			( 1090 )
+			Speichern der Vorgaben für die Anzeige
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1092</hlp_id>
+		<hlp_title>Tourdaten - Sichern</hlp_title>
+		<hlp_text>
+			( 1092 )
+			Aktuelle Daten sichern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1093</hlp_id>
+		<hlp_title>Tourdaten - Lade- börse</hlp_title>
+		<hlp_text>
+			( 1093 )
+			Aufruf hinterlegte Webseite
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1099</hlp_id>
+		<hlp_title>Tourdaten - Schliessen</hlp_title>
+		<hlp_text>
+			( 1099 )
+			Das aktuelle Fenster schliessen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1101</hlp_id>
+		<hlp_title>Ladehilfsmittel</hlp_title>
+		<hlp_text>
+			( 1101 )
+			Ladehilfsmittel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1111</hlp_id>
+		<hlp_title>Anzahl</hlp_title>
+		<hlp_text>
+			( 1111 )
+			Anzahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1112</hlp_id>
+		<hlp_title>Nr.</hlp_title>
+		<hlp_text>
+			( 1112 )
+			Nr.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1113</hlp_id>
+		<hlp_title>Packmittel</hlp_title>
+		<hlp_text>
+			( 1113 )
+			Packmittel
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1198</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>
+			( 1198 )
+			Daten speichern [F3]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1199</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>
+			( 1199 )
+			Beenden [F2]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1201</hlp_id>
+		<hlp_title>Filter LKW-Anzeige</hlp_title>
+		<hlp_text>Filter LKW-Anzeige</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1202</hlp_id>
+		<hlp_title>Fahrzeugfilter</hlp_title>
+		<hlp_text>Fahrzeugfilter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1203</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Tourfilter</hlp_title>
+		<hlp_text>
+			( 1203 )
+			Tourfilter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1204</hlp_id>
+		<hlp_title>Auftragfilter</hlp_title>
+		<hlp_text>Auftragfilter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1210</hlp_id>
+		<hlp_title>eigene Fahrzeuge</hlp_title>
+		<hlp_text>eigene Fahrzeuge</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1212</hlp_id>
+		<hlp_title>fremde Fahrzeuge</hlp_title>
+		<hlp_text>fremde Fahrzeuge</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1214</hlp_id>
+		<hlp_title>interne Fahrzeugnr.</hlp_title>
+		<hlp_text>interne Fahrzeugnr.</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1215</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige</hlp_title>
+		<hlp_text>
+			( 1215 )
+			Fahrzeugart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1216</hlp_id>
+		<hlp_title>Fahrzeuggruppe</hlp_title>
+		<hlp_text>Fahrzeuggruppe</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1217</hlp_id>
+		<hlp_title>unbek. Fahrzeuge</hlp_title>
+		<hlp_text>unbek. Fahrzeuge</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1219</hlp_id>
+		<hlp_title>Unternehmer</hlp_title>
+		<hlp_text>Unternehmer</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1221</hlp_id>
+		<hlp_title>Standort Relation</hlp_title>
+		<hlp_text>Standort Relation</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1222</hlp_id>
+		<hlp_title>Standort PLZ</hlp_title>
+		<hlp_text>Standort PLZ</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1223</hlp_id>
+		<hlp_title>Dispostatus</hlp_title>
+		<hlp_text>Dispostatus</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1224</hlp_id>
+		<hlp_title>freie Stellplätze ab</hlp_title>
+		<hlp_text>freie Stellplätze ab</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1225</hlp_id>
+		<hlp_title>Minuten</hlp_title>
+		<hlp_text>Minuten</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1226</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige</hlp_title>
+		<hlp_text>
+			( 1226 )
+			enthält Dispogruppe
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1250</hlp_id>
+		<hlp_title>Art</hlp_title>
+		<hlp_text>Art</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1251</hlp_id>
+		<hlp_title>Tourennummer</hlp_title>
+		<hlp_text>Tourennummer</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1252</hlp_id>
+		<hlp_title>Reisenummer</hlp_title>
+		<hlp_text>Reisenummer</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1253</hlp_id>
+		<hlp_title>Ladetag</hlp_title>
+		<hlp_text>Ladetag</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1254</hlp_id>
+		<hlp_title>Entladetag</hlp_title>
+		<hlp_text>Entladetag</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1255</hlp_id>
+		<hlp_title>Laderelation</hlp_title>
+		<hlp_text>Laderelation</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1256</hlp_id>
+		<hlp_title>Entladerelation</hlp_title>
+		<hlp_text>Entladerelation</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1257</hlp_id>
+		<hlp_title>Ladezone</hlp_title>
+		<hlp_text>Ladezone</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1258</hlp_id>
+		<hlp_title>Entladezone</hlp_title>
+		<hlp_text>Entladezone</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1259</hlp_id>
+		<hlp_title>Kg</hlp_title>
+		<hlp_text>Kg</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1260</hlp_id>
+		<hlp_title>Lademeter</hlp_title>
+		<hlp_text>Lademeter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1261</hlp_id>
+		<hlp_title>CBM</hlp_title>
+		<hlp_text>CBM</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1263</hlp_id>
+		<hlp_title>Anhänger</hlp_title>
+		<hlp_text>Anhänger</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1264</hlp_id>
+		<hlp_title>WB</hlp_title>
+		<hlp_text>WB</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1265</hlp_id>
+		<hlp_title>Fahrzeugart</hlp_title>
+		<hlp_text>Fahrzeugart</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1266</hlp_id>
+		<hlp_title>Fahrzeuggruppe</hlp_title>
+		<hlp_text>Fahrzeuggruppe</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1267</hlp_id>
+		<hlp_title>Dispogruppe</hlp_title>
+		<hlp_text>Dispogruppe</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1268</hlp_id>
+		<hlp_title>Abteilung</hlp_title>
+		<hlp_text>Abteilung</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1270</hlp_id>
+		<hlp_title>Beladestelle PLZ</hlp_title>
+		<hlp_text>Beladestelle PLZ</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1271</hlp_id>
+		<hlp_title>Entladestelle PLZ</hlp_title>
+		<hlp_text>Entladestelle PLZ</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1290</hlp_id>
+		<hlp_title>Vorgaben</hlp_title>
+		<hlp_text>Einstellungen speichern</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1298</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>Einstellungen übernehmen [F3]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1299</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>Beenden [F2]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1301</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Auftraggeber</hlp_title>
+		<hlp_text>
+			( 1301 )
+			Auftraggeber
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1302</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Versender</hlp_title>
+		<hlp_text>
+			( 1302 )
+			Versender
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1303</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Ladestelle</hlp_title>
+		<hlp_text>
+			( 1303 )
+			Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1304</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Empfänger</hlp_title>
+		<hlp_text>
+			( 1304 )
+			Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1305</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Entladestelle</hlp_title>
+		<hlp_text>
+			( 1305 )
+			Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1306</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Kilogramm</hlp_title>
+		<hlp_text>
+			(1306)
+			Kilogramm
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1307</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Lademeter</hlp_title>
+		<hlp_text>
+			( 1307 )
+			Lademeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1308</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Raummeter</hlp_title>
+		<hlp_text>
+			( 1308 )
+			Raummeter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1309</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Auftragsart</hlp_title>
+		<hlp_text>
+			( 1309 )
+			Auftragsart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1311</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Frankatur</hlp_title>
+		<hlp_text>
+			( 1311 )
+			Frankatur
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1312</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Referenz</hlp_title>
+		<hlp_text>
+			( 1312 )
+			Referenz
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1313</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Projekt</hlp_title>
+		<hlp_text>
+			( 1313 )
+			Projekt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1314</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Auftragsnummer</hlp_title>
+		<hlp_text>
+			( 1314 )
+			Auftragsnummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1401</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter</hlp_title>
+		<hlp_text>Filter Anhänger-/Wechselbehälter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1402</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Fahrzeug-/Tourfilter</hlp_title>
+		<hlp_text>
+			( 1402 )
+			Fahrzeug-/Tourfilter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1403</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Auftragfilter</hlp_title>
+		<hlp_text>
+			( 1403 )
+			Auftragfilter
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1410</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - eigene Anh. / WB</hlp_title>
+		<hlp_text>
+			( 1410 )
+			eigene Anh. / WB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1412</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - fremde Anh. / WB</hlp_title>
+		<hlp_text>
+			( 1412 )
+			fremde Anh. / WB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1414</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Fahrzeugart</hlp_title>
+		<hlp_text>
+			( 1414 )
+			Fahrzeugart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1415</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Tourenart</hlp_title>
+		<hlp_text>
+			( 1415 )
+			Tourenart
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1416</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - freie Tour</hlp_title>
+		<hlp_text>
+			( 1416 )
+			freie Tour
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1418</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Bordero</hlp_title>
+		<hlp_text>
+			( 1418 )
+			Bordero
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1420</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Reisenummer</hlp_title>
+		<hlp_text>
+			( 1420 )
+			Reisenummer
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1421</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Erfasser</hlp_title>
+		<hlp_text>
+			( 1421 )
+			Erfasser
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1422</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Ladetag</hlp_title>
+		<hlp_text>
+			( 1422 )
+			Ladetag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1423</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Entladetag</hlp_title>
+		<hlp_text>
+			( 1423 )
+			Entladetag
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1424</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Relation</hlp_title>
+		<hlp_text>
+			( 1424 )
+			Relation
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1425</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Zone</hlp_title>
+		<hlp_text>
+			( 1425 )
+			Zone
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1426</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Standort/Ladest.PLZ</hlp_title>
+		<hlp_text>
+			( 1426 )
+			Standort/Ladest.PLZ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1427</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Dispogruppe</hlp_title>
+		<hlp_text>
+			( 1427 )
+			Dispogruppe
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1428</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Abteilung</hlp_title>
+		<hlp_text>
+			( 1428 )
+			Abteilung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1430</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Entladestelle PLZ</hlp_title>
+		<hlp_text>
+			( 1430 )
+			Entladestelle PLZ
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1490</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Vorgabe</hlp_title>
+		<hlp_text>
+			( 1490 )
+			Einstellungen speichern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1498</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - \&lt;OK</hlp_title>
+		<hlp_text>
+			( 1498 )
+			Einstellungen übernehmen [F3]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1499</hlp_id>
+		<hlp_title>Filter Anhänger-/Wechselbehälter-Anzeige - Be\&lt;enden</hlp_title>
+		<hlp_text>
+			( 1499 )
+			Beenden [F2]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1501</hlp_id>
+		<hlp_title>undisponierte Aufträge filtern</hlp_title>
+		<hlp_text>undisponierte Aufträge filtern</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1502</hlp_id>
+		<hlp_title>Entladetag</hlp_title>
+		<hlp_text>Entladetag</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1503</hlp_id>
+		<hlp_title>Auftragsart</hlp_title>
+		<hlp_text>Auftragsart</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1505</hlp_id>
+		<hlp_title>Erfasser</hlp_title>
+		<hlp_text>Erfasser</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1506</hlp_id>
+		<hlp_title>Auftraggeber</hlp_title>
+		<hlp_text>Auftraggeber</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1507</hlp_id>
+		<hlp_title>Referenz</hlp_title>
+		<hlp_text>Referenz</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1508</hlp_id>
+		<hlp_title>PLZ Ladestelle</hlp_title>
+		<hlp_text>PLZ Ladestelle</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1509</hlp_id>
+		<hlp_title>PLZ Entladestelle</hlp_title>
+		<hlp_text>PLZ Entladestelle</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1510</hlp_id>
+		<hlp_title>Relation Ladestelle</hlp_title>
+		<hlp_text>Relation Ladestelle</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1511</hlp_id>
+		<hlp_title>Beladezone</hlp_title>
+		<hlp_text>Beladezone</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1512</hlp_id>
+		<hlp_title>Entladezone</hlp_title>
+		<hlp_text>Entladezone</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1513</hlp_id>
+		<hlp_title>Kg</hlp_title>
+		<hlp_text>Kg</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1514</hlp_id>
+		<hlp_title>Lademeter</hlp_title>
+		<hlp_text>Lademeter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1515</hlp_id>
+		<hlp_title>Raummeter</hlp_title>
+		<hlp_text>Raummeter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1516</hlp_id>
+		<hlp_title>Projekt</hlp_title>
+		<hlp_text>Projekt</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1517</hlp_id>
+		<hlp_title>Abteilung</hlp_title>
+		<hlp_text>Abteilung</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1519</hlp_id>
+		<hlp_title>Auftragsprüfung</hlp_title>
+		<hlp_text>Auftragsprüfung</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1520</hlp_id>
+		<hlp_title>Disponiert</hlp_title>
+		<hlp_text>Disponiert</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1521</hlp_id>
+		<hlp_title>Auftrag ausgelagert</hlp_title>
+		<hlp_text>Auftrag ausgelagert</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1523</hlp_id>
+		<hlp_title>Filter undisponierte Aufträge - Loading place ungleich</hlp_title>
+		<hlp_text></hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1524</hlp_id>
+		<hlp_title>Filter undisponierte Aufträge - Relation Entladest.</hlp_title>
+		<hlp_text></hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1525</hlp_id>
+		<hlp_title>Filter undisponierte Aufträge - Entladest. ungleich</hlp_title>
+		<hlp_text></hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1526</hlp_id>
+		<hlp_title>Filter undisponierte Aufträge - Datenart</hlp_title>
+		<hlp_text></hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1528</hlp_id>
+		<hlp_title>Filter undisponierte Aufträge - Auftragstyp</hlp_title>
+		<hlp_text></hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1590</hlp_id>
+		<hlp_title>Vorgaben</hlp_title>
+		<hlp_text>Einstellungen speichern</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1598</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>Einstellungen übernehmen [F3]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1599</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>Beenden [F2]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1601</hlp_id>
+		<hlp_title>Filter disp. Aufträge</hlp_title>
+		<hlp_text>Filter disp. Aufträge</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1602</hlp_id>
+		<hlp_title>Auftrag offen</hlp_title>
+		<hlp_text>Auftrag offen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1603</hlp_id>
+		<hlp_title>Auftrag erledigt</hlp_title>
+		<hlp_text>Auftrag erledigt</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1690</hlp_id>
+		<hlp_title>Vorgaben</hlp_title>
+		<hlp_text>Einstellungen speichern</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1698</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>Einstellungen übernehmen [F3]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1699</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>Beenden [F2]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1701</hlp_id>
+		<hlp_title>Ladestelle / Entladestelle ändern</hlp_title>
+		<hlp_text>
+			( 1701 )
+			Ladestelle / Entladestelle ändern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1702</hlp_id>
+		<hlp_title>Ladestelle</hlp_title>
+		<hlp_text>
+			( 1702 )
+			Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1703</hlp_id>
+		<hlp_title>Entladestelle</hlp_title>
+		<hlp_text>
+			( 1703 )
+			Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1798</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>
+			( 1798 )
+			Daten speichern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>1799</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>
+			( 1799 )
+			Beenden [F2]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>2004</hlp_id>
+		<hlp_title>L</hlp_title>
+		<hlp_text>
+			( 2004 )
+			Ladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>2005</hlp_id>
+		<hlp_title>E</hlp_title>
+		<hlp_text>
+			( 2005 )
+			Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3001</hlp_id>
+		<hlp_title>Datum</hlp_title>
+		<hlp_text>
+			( 3001 )
+			Datum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3003</hlp_id>
+		<hlp_title>Uhrzeit</hlp_title>
+		<hlp_text>
+			( 3003 )
+			Uhrzeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3011</hlp_id>
+		<hlp_title>Nr</hlp_title>
+		<hlp_text>
+			( 3011 )
+			Nr
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3012</hlp_id>
+		<hlp_title>Auftragsnr.</hlp_title>
+		<hlp_text>
+			( 3012 )
+			Auftragsnr.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3013</hlp_id>
+		<hlp_title>Status</hlp_title>
+		<hlp_text>
+			( 3013 )
+			Status
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3014</hlp_id>
+		<hlp_title>Versender/Empfänger</hlp_title>
+		<hlp_text>
+			( 3014 )
+			Versender/Empfänger
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3015</hlp_id>
+		<hlp_title>KDNR LA/E</hlp_title>
+		<hlp_text>
+			( 3015 )
+			KDNR LA/E
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3016</hlp_id>
+		<hlp_title>Lade-/Entladestelle</hlp_title>
+		<hlp_text>
+			( 3016 )
+			Lade-/Entladestelle
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3017</hlp_id>
+		<hlp_title>Datum</hlp_title>
+		<hlp_text>
+			( 3017 )
+			Datum
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3018</hlp_id>
+		<hlp_title>Zeit</hlp_title>
+		<hlp_text>
+			( 3018 )
+			Zeit
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3019</hlp_id>
+		<hlp_title>Termin</hlp_title>
+		<hlp_text>
+			( 3019 )
+			Termin
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3020</hlp_id>
+		<hlp_title>Anzahl</hlp_title>
+		<hlp_text>
+			( 3020 )
+			Anzahl
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3021</hlp_id>
+		<hlp_title>Verp.</hlp_title>
+		<hlp_text>
+			( 3021 )
+			Verp.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3022</hlp_id>
+		<hlp_title>Inhalt</hlp_title>
+		<hlp_text>
+			( 3022 )
+			Inhalt
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3023</hlp_id>
+		<hlp_title>KG</hlp_title>
+		<hlp_text>
+			( 3023 )
+			KG
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3024</hlp_id>
+		<hlp_title>CBM</hlp_title>
+		<hlp_text>
+			( 3024 )
+			CBM
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3025</hlp_id>
+		<hlp_title>LM</hlp_title>
+		<hlp_text>
+			( 3025 )
+			LM
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3026</hlp_id>
+		<hlp_title>S</hlp_title>
+		<hlp_text>
+			( 3026 )
+			Status
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3027</hlp_id>
+		<hlp_title>Name LA/E</hlp_title>
+		<hlp_text>
+			( 3027 )
+			Name LA/E
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3028</hlp_id>
+		<hlp_title>Strasse LA/E</hlp_title>
+		<hlp_text>
+			( 3028 )
+			Strasse LA/E
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3029</hlp_id>
+		<hlp_title>PLZ LA/E</hlp_title>
+		<hlp_text>
+			( 3029 )
+			PLZ LA/E
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3030</hlp_id>
+		<hlp_title>OK</hlp_title>
+		<hlp_text>
+			( 3030 )
+			OK
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3031</hlp_id>
+		<hlp_title>Geo</hlp_title>
+		<hlp_text>
+			( 3031 )
+			Geo
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3032</hlp_id>
+		<hlp_title>Pos.</hlp_title>
+		<hlp_text>
+			( 3032 )
+			Pos.
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3033</hlp_id>
+		<hlp_title>Anh./WB</hlp_title>
+		<hlp_text>
+			( 3033 )
+			Anh./WB
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3089</hlp_id>
+		<hlp_title>\&lt;Drucken</hlp_title>
+		<hlp_text>
+			( 3089 )
+			Ansicht Drucken [STRG]+[p]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3090</hlp_id>
+		<hlp_title>Vorgaben</hlp_title>
+		<hlp_text>
+			( 3090 )
+			Einstellungen speichern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3091</hlp_id>
+		<hlp_title>Frachtbrief</hlp_title>
+		<hlp_text>
+			( 3091 )
+			Frachtbriefdaten erstellen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3092</hlp_id>
+		<hlp_title>Auftragsstat.</hlp_title>
+		<hlp_text>
+			( 3092 )
+			Auftragsstatus bearbeiten
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3093</hlp_id>
+		<hlp_title>Packmittel</hlp_title>
+		<hlp_text>
+			( 3093 )
+			Packmittel buchen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3094</hlp_id>
+		<hlp_title>Anh./ WB</hlp_title>
+		<hlp_text>
+			( 3094 )
+			Anhänger / Wechselbrücken ändern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3095</hlp_id>
+		<hlp_title>LKW Position</hlp_title>
+		<hlp_text>
+			( 3095 )
+			Fahrzeugposition ändern
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3096</hlp_id>
+		<hlp_title>Kommunikation</hlp_title>
+		<hlp_text>Daten an Fahrzeugkommunikation übergeben</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3097</hlp_id>
+		<hlp_title>Karte</hlp_title>
+		<hlp_text>
+			( 3097 )
+			Anzeige Map &amp; Guide
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3098</hlp_id>
+		<hlp_title>Summen</hlp_title>
+		<hlp_text>
+			( 3098 )
+			Summen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3099</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>
+			( 3099 )
+			Beenden [F2]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3100</hlp_id>
+		<hlp_title>Planung</hlp_title>
+		<hlp_text>
+			( 3100 )
+			Daten an Fahrzeugkommunikation übergeben
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3101</hlp_id>
+		<hlp_title>Datum</hlp_title>
+		<hlp_text>Datum</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3103</hlp_id>
+		<hlp_title>Uhrzeit</hlp_title>
+		<hlp_text>Uhrzeit</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3104</hlp_id>
+		<hlp_title>Standort</hlp_title>
+		<hlp_text>Standort</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3105</hlp_id>
+		<hlp_title>aktuell</hlp_title>
+		<hlp_text>aktuell</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3106</hlp_id>
+		<hlp_title>abstellen</hlp_title>
+		<hlp_text>abstellen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3107</hlp_id>
+		<hlp_title>aufnehmen</hlp_title>
+		<hlp_text>aufnehmen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3108</hlp_id>
+		<hlp_title>LKW</hlp_title>
+		<hlp_text>LKW</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3110</hlp_id>
+		<hlp_title>Anhänger</hlp_title>
+		<hlp_text>Anhänger</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3111</hlp_id>
+		<hlp_title>abstellen</hlp_title>
+		<hlp_text>abstellen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3113</hlp_id>
+		<hlp_title>WB 1</hlp_title>
+		<hlp_text>WB 1</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3114</hlp_id>
+		<hlp_title>abstellen</hlp_title>
+		<hlp_text>abstellen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3116</hlp_id>
+		<hlp_title>WB 2</hlp_title>
+		<hlp_text>WB 2</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3117</hlp_id>
+		<hlp_title>abstellen</hlp_title>
+		<hlp_text>abstellen</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3198</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>Daten speichern [F3]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3199</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>Beenden [F2]</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3201</hlp_id>
+		<hlp_title>alter Standort</hlp_title>
+		<hlp_text>
+			( 3201 )
+			alter Standort
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3202</hlp_id>
+		<hlp_title>freie Stellplätze</hlp_title>
+		<hlp_text>
+			( 3202 )
+			freie Stellplätze
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3203</hlp_id>
+		<hlp_title>neuer Standort</hlp_title>
+		<hlp_text>
+			( 3203 )
+			neuer Standort
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3205</hlp_id>
+		<hlp_title>LKW Standort - KO-AL  112                          - Kalender</hlp_title>
+		<hlp_text>Kalenderbasierende Datumsauswahl</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3208</hlp_id>
+		<hlp_title>freie Stellplätze</hlp_title>
+		<hlp_text>
+			( 3208 )
+			freie Stellplätze
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3298</hlp_id>
+		<hlp_title>\&lt;OK</hlp_title>
+		<hlp_text>
+			( 3298 )
+			Daten speichern [F3]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>3299</hlp_id>
+		<hlp_title>Be\&lt;enden</hlp_title>
+		<hlp_text>
+			( 3299 )
+			Beenden [F2]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>4001</hlp_id>
+		<hlp_title>Filter</hlp_title>
+		<hlp_text>Filter</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>4011</hlp_id>
+		<hlp_title>Filter Datenart - Abteilung</hlp_title>
+		<hlp_text>
+			( 4011 )
+			Abteilung
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>4098</hlp_id>
+		<hlp_title>Filter Datenart - \&lt;OK</hlp_title>
+		<hlp_text>
+			( 4098 )
+			Einstellungen übernehmen [F3]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>4099</hlp_id>
+		<hlp_title>Filter Datenart - Be\&lt;enden</hlp_title>
+		<hlp_text>
+			( 4099 )
+			Beenden [F2]
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+	<crs_mlcrt_gethelp>
+		<hlp_id>10010</hlp_id>
+		<hlp_title>Disposition 10.2.43 - sk - MLC</hlp_title>
+		<hlp_text>
+			( 10010 )
+			Die Applikation zum Verwalten der active m-ware Spracheinstellungen öffnen
+		</hlp_text>
+		<hlp_verweisid>0</hlp_verweisid>
+		<hlp_forceupd>0</hlp_forceupd>
+	</crs_mlcrt_gethelp>
+</VFPData>
